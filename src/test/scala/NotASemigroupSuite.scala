@@ -3,11 +3,10 @@ import org.scalatest.{FlatSpec, Matchers}
 
 class NotASemigroupSuite extends FlatSpec with Matchers with GeneratorDrivenPropertyChecks {
 
-  "NotASemigroup's binary operator" should "be closed" in {
+  "NotASemigroup's binary operation" should "be closed" in {
     forAll((i1: Int, i2: Int) => {
       val (a1, a2) = (NotASemigroup(i1), NotASemigroup(i2))
-      println(">>>>>>>>>>>>>>>>>>>>>" + NotASemigroup.plus(a1, a2).toString)
-      NotASemigroup.plus(a1, a2) shouldBe isInstanceOf[NotASemigroup]
+      NotASemigroup.plus(a1, a2) shouldBe a [NotASemigroup]
     })
   }
 
