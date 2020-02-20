@@ -1,6 +1,6 @@
 # Sandbox for Algebird Experiments in Scala
-For more details, please visit [Databaseline](https://databaseline.bitbucket.io/associativity-in-semigroups-in-scala/).
+For more details, please visit [databaseline.tech](https://databaseline.tech/associativity-in-semigroups-in-scala/).
 
 ---
 
-(c) 2018 Ian HellstrÃ¶m
+(c) 2018 Ian Hellström
