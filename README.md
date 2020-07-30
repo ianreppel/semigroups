@@ -3,4 +3,4 @@ For more details, please visit [databaseline.tech](https://databaseline.tech/ass
 
 ---
 
-(c) 2018 Ian Hellström
+(c) 2018-2020 Ian Hellström
